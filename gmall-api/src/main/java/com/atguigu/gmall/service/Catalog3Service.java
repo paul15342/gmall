@@ -1,0 +1,1 @@
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.BaseCatalog3;import java.util.List;public interface Catalog3Service {    public List<BaseCatalog3> getCatalog3s(String ctg2id);}
