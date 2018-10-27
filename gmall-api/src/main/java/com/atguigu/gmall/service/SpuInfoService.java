@@ -1,1 +1,1 @@
-package com.atguigu.gmall.service;import com.atguigu.gmall.bean.SpuInfo;import java.util.List;public interface SpuInfoService {    List<SpuInfo> getSpuList (String catalog3Id);}
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.BaseSaleAttr;import com.atguigu.gmall.bean.SpuInfo;import java.util.List;public interface SpuInfoService {    List<SpuInfo> getSpuList (String catalog3Id);    List<BaseSaleAttr> getBaseSaleAttrList ();    void saveSpuInfo (SpuInfo spuInfo);}
