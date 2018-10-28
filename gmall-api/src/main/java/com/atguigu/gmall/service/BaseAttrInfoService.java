@@ -1,1 +1,1 @@
-package com.atguigu.gmall.service;import com.atguigu.gmall.bean.BaseAttrInfo;import java.util.List;public interface BaseAttrInfoService{    void saveAttrInfo (BaseAttrInfo baseAttrInfo);    List<BaseAttrInfo> selectAttrList(String ctg3Id);}
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.BaseAttrInfo;import java.util.List;public interface BaseAttrInfoService{    void saveAttrInfo (BaseAttrInfo baseAttrInfo);    List<BaseAttrInfo> selectAttrList(String ctg3Id);    List<BaseAttrInfo> selectAttrListBycCata3Id (String catalog3Id);}

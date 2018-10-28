@@ -18,7 +18,14 @@ public class GmallManagerWebApplicationTests {
     @Test
     public void contextLoads () throws IOException, Exception {
 
-        String path = GmallManagerWebApplicationTests.class.getResource("/tracker.conf").getPath();
+        String str = "adcde";
+        String substring = str.substring(1);
+        System.err.println(substring);
+
+        String substring1 = str.substring(1, 3);
+        System.err.println(substring1);
+
+       /* String path = GmallManagerWebApplicationTests.class.getResource("/tracker.conf").getPath();
 
         ClientGlobal.init(path);
 
@@ -28,7 +35,8 @@ public class GmallManagerWebApplicationTests {
         StorageClient storageClient = new StorageClient(trackerServer, null);
         String[] file = storageClient.upload_file("d:/a.jpg", "jpg", null);
 
-        System.err.println(file[0]+file[1]);
+        System.err.println(file[0]+file[1]);*/
 
     }
+
 }
